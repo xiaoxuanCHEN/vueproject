@@ -3,8 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import fastClick from 'fastClick'
+import './assets/style/reset.css'
+import './assets/style/border.css'
 
 Vue.config.productionTip = false
+// 解决点击三秒延迟的问题
+fastClick.attach(document.body)
 
 /* eslint-disable no-new */
 new Vue({
