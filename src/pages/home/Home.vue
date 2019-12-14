@@ -1,5 +1,8 @@
 <template>
+  <div>
     <home-header></home-header>
+    <router-link to="/test">Test</router-link>
+  </div>
 </template>
 
 <script>
